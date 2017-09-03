@@ -1,0 +1,76 @@
+.nav__wrap {
+  display: flex;
+  overflow-x: auto;
+}
+.nav__item {
+  flex-shrink: 0;
+  position: relative;
+}
+.nav__dropdown {
+  position: absolute;
+  z-index: 1;
+}
+
+// adding height for menus 2-4
+.nav--tall .nav__wrap {
+  height: 14em;
+}
+// adding position:absolute for menus 3-4
+.nav--absolute {
+  position: relative;
+  .nav__wrap {
+    position: absolute;
+    width: 100%;
+  }
+}
+// for toggle to work, mouse/touch needs to interact with wrapper as it leaves the menu (on all sides)
+#nav--4 .nav__wrap {
+  padding: .5em .5em 0;
+}
+
+/* Just for looks */
+.nav__wrap, .nav__wrap * {
+  list-style: none;
+  background: rgba(50,50,200,.1);
+}
+ul {
+  padding: 0; margin: 0;
+}
+.nav__item {
+  height: 3em;
+}
+.nav__item > div, .nav__dropdown > li {
+  white-space: nowrap;
+  line-height: 3em;
+  padding: 0 1em;
+}
+.nav__wrap *:hover {
+  background: rgba(0,200,200,.3);
+}
+.demo-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.demo {
+  flex-grow: 1;
+  width: 300px;
+  max-width: 450px;
+  padding: 0 1em;
+}
+.one-half {
+  width: 100%; 
+  padding: 1em;
+}
+@media (min-width: 600px) {
+  .one-half {
+    width: calc(50% - 2em);
+    float: left;
+  }
+}
+.additional-content {
+  padding: 1em;
+  background: rgba(255,0,0,.4);
+  &:hover {
+    background: rgba(255,0,0,.6);
+  }
+}
