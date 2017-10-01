@@ -88,7 +88,7 @@ h6{
 	margin:0 0 60px 0;
 }
 p{
-	line-height:24px;
+	line-height:100%;      /*changed the box size underneath*/
 	margin:0;
 }
 
