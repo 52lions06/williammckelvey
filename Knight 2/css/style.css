@@ -428,6 +428,8 @@ Check out Veed.Me*/
 }
 img {
    max-width:100%;
+	 border-radius: 37%;
+
 }
 
 /* no transition on .isotope container */
