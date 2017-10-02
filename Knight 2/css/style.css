@@ -414,6 +414,8 @@ Check out Veed.Me*/
 }
 .Portfolio-box img{
 	margin-bottom:25px;
+	width: 350px;
+	height: 252px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;	
@@ -433,6 +435,11 @@ img {
 	 border-radius: 37%;
 
 }
+
+.printdesign img {
+	border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
 
 /* no transition on .isotope container */
 
