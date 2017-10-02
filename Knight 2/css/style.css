@@ -175,6 +175,8 @@ color: #fff;
 
 
 /*Video 2*/
+
+
 /*.homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -215,8 +217,8 @@ color: #fff;
 }
 .video-container video.fillWidth {
     width: 100%;
-}
-Copy
+}*/
+/*Copy
  Need a custom video or to edit shots?
 
 Check out Veed.Me*/
@@ -632,6 +634,12 @@ border: 2px solid #fff;
 .team-leader ul li a.fa-twitter:hover{
 	color:#55acee;
 }
+.team-leader ul li a.fa-gitub:hover{           /* Added hover functionality to github and linkedin */
+	color:#dbedff;
+}
+.team-leader ul li a.fa-linkedin:hover{
+	color:#3b5998;
+}
 .team-leader ul li a.fa-facebook:hover{
 	color:#3b5998;
 }
@@ -724,6 +732,12 @@ border: 2px solid #fff;
 }
 .twitter a:hover {
 	background: #55acee;
+}
+.gitub a:hover{
+	background: #dbedff;
+}
+.linkedin a:hover{
+	background: #3b5998;
 }
 .facebook a:hover {
 	background: #3b5998;
