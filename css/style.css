@@ -123,6 +123,8 @@ button a {
 }
 
 button:hover {
+	position: relative;
+	top: -8px;
 	background-color: #fff;
 	color: #7cc576;
 	border: 1px solid #7cc576;
@@ -506,8 +508,12 @@ Check out Veed.Me*/
 }
 img {
    max-width:100%;
-	 border-radius: 25%;
+	 
 
+}
+
+.small-logo img {
+	border-radius: 25%;
 }
 
 .printdesign img {
