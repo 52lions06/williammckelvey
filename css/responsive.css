@@ -11,7 +11,7 @@
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
-	
+	/*button {margin: 20px 20px 20px 150px;}*/
 }	
    
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -94,7 +94,7 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
-	.header{ padding:40px;}
+	.header{ padding:60px;}
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}

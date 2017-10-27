@@ -108,6 +108,8 @@ ul li a {
 button {
   display: inline-block;
   padding: 15px 25px;
+	width: 130px;
+	height: 65px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
