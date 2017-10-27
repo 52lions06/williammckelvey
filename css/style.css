@@ -92,7 +92,8 @@ p{
 	margin:0;
 }
 ul {
-	margin-left: 30px;
+	margin-left: -40px;
+	text-align: center;
 }
 li {
 	display: inline;
@@ -481,7 +482,7 @@ Check out Veed.Me*/
 .Portfolio-box img {
     margin-bottom: 25px;
 		margin-left: 100px;
-    width: 45%;
+    width: 520px;
     height: 295px;
     float: right;
     transition: all 0.3s ease-in-out;
