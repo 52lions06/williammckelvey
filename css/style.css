@@ -656,10 +656,10 @@ border: 2px solid #fff;
 .team-leader{
 	width:auto;
 	height:auto;
-	position:relative;
+	position:absolute;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
-	margin:7px 7px 25px 7px;
+	margin:127px 7px 25px 50px;
 	
 }
 .team-leader-shadow{
