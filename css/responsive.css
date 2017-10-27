@@ -94,12 +94,12 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
-	.header{ padding:60px;}
-	.social-link{ margin-left:0px;}
+	.header{ padding:40px;}
+	.social-link{ margin-left:110px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:auto !important}
+	.Portfolio-box{  max-width:360px !important; width:96.4% !important; margin:auto !important}
 	.Portfolio-box img { max-width:100%; max-height:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
-	button { margin: auto;}
+	button { margin: 0px 0px 0px 10px;}
 }
