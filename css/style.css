@@ -484,7 +484,8 @@ Check out Veed.Me*/
 
 .Portfolio-box img {
     margin-bottom: 25px;
-		margin-left: 100px;
+		margin-left: 10%;
+		margin-right: 2%;
     width: 520px;
     height: 295px;
     float: right;
