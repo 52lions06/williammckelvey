@@ -34,6 +34,8 @@
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
 
+  /*.Portfolio-box img { float:none; margin-left: 80px;} */
+
 	/*.small-logo img{height:}*/
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:0px 15px;}
@@ -92,6 +94,8 @@
 	
 	
 }
+
+@media only screen and (max-width: 479px) {
 
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
