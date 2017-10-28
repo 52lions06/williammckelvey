@@ -12,8 +12,12 @@
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	/*button {margin: 20px 20px 20px 150px;}*/
+		button {margin-top: 3%; margin-right: 1%; margin-left: 9%}
 }	
-   
+
+@media only screen and (min-width: 918px) and (max-width: 991px) {
+button { margin-right: 0px; margin: 0px -30% 0px 32%;}}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
@@ -48,11 +52,15 @@
 
 @media only screen and (min-width: 816px) and (max-width: 915px) {
   .Portfolio-box img {  margin-left: 30%; margin-right:15%} 
+	 button { margin: 0px -30% 0px 32%;}
+
 
 }
 
 @media only screen and (min-width: 769px) and (max-width: 815px) {
   .Portfolio-box img {  margin-right:13%} 
+	 button { margin: 0px -28% 0px 29%;}
+
 
 }
 
@@ -97,6 +105,7 @@
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
 	.Portfolio-box img { margin-right:10%} 
+   button { margin: 0px -29% 0px 30%;}
 
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
@@ -109,13 +118,14 @@
 
 @media only screen and (min-width:616px) and (max-width: 712px) {
   .Portfolio-box img {  margin-right:6% !important;} 
+   button { margin: 0px -23% 0px 25%;}
 
 
 }
 
 @media only screen and (max-width:615px)  {
   .Portfolio-box img {  margin-right:0%;} 
-
+   button { margin: 0px 15% 0px 20%;}
 
 }
 
