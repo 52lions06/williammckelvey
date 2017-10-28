@@ -295,7 +295,7 @@ Check out Veed.Me*/
 }
 .main-nav li{
 	display:inline;
-	margin:0 1px;
+	margin:0px 0px 0px -10px;
 }
 .main-nav li a{
 	display:inline-block;

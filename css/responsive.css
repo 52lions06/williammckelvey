@@ -33,9 +33,10 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	
+	.small-logo img{height:}
 	.main-nav{ display:block !important; }
-	.main-nav li a{ padding:8px 15px;}
+	.main-nav li a{ padding:0px 15px;}
+	.main-nav li {margin:0px 0px 0px -50px}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 	
