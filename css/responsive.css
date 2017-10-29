@@ -1,7 +1,20 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+    
+@media only screen and (min-width:1159px ) and (max-width: 1300px) {		
+		button {margin: 55px 0% 50px 6%;}
 
+}
+
+@media only screen and (min-width:1021px ) and (max-width: 1156px) {		
+		button {margin: 55px -2% 50px 6%;}
+
+}
+
+@media only screen and (min-width: 993px) and (max-width:1020px) {
+	button {margin: 4px -5% 0px 23%}
+}
 
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
@@ -12,12 +25,12 @@
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	/*button {margin: 20px 20px 20px 150px;}*/
-		button {margin-top: 3%; margin-right: 1%; margin-left: 9%}
+		/*button {margin-top: 3%; margin-right: 1%; margin-left: 9%}*/
 }	
 
 @media only screen and (min-width: 918px) and (max-width: 991px) {
-button { margin-right: 0px; margin: 0px -30% 0px 32%;}}
-
+button { margin: 55px -3% 50px 22%;}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
@@ -125,7 +138,7 @@ button { margin-right: 0px; margin: 0px -30% 0px 32%;}}
 
 @media only screen and (max-width:615px)  {
   .Portfolio-box img {  margin-right:0%;} 
-   button { margin: 0px 15% 0px 20%;}
+   button { margin: 0px -18% 0px 20%;}
 
 }
 
